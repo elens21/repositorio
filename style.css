@@ -16,7 +16,7 @@ font-family: 'Sarala', sans-serif;*/
     flex-direction: row; /*direção de linha*/
     align-items: center; /*centralizar no meio da linha*/
     justify-content: space-around;
-    padding: 5px;
+    padding: 0px;
 }
 
 .cabecalho-menu{
