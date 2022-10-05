@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Fm | Login</title>
+    <link rel="shortcut icon" href="408789.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="logo pequena lastfm.svg" alt="logo pequena lastfm" class="cabecalho-imagem">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item"> Home</a>
+            <a class="cabecalho-menu-item"> Last Fm para artistas</a>
+            <a class="cabecalho-menu-item"> Dúvidas</a>
+            <a class="cabecalho-menu-item"> Nos contate</a>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="main-esquerdo">
+            <div class="main-texto">
+                <h1 class="main-texto-principal"> Música toda hora<br> e em todo lugar</h1>
+            </div>
+            <div class="main-imagem"><img src="Sony_Music_Bubble-gum_16x9_01-2.gif" alt="logo grande lastfm" class="login-imagem"></div>
+        </section>
+        <section class="card-login">
+            <h2 class="card-titulo">Login</h2>
+            <div class="textfield">
+                <label for="usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="Usuário">
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Senha">
+            </div>
+            <button class="botao-login">Login</button>
+            <div class="card-opcoes-login">
+                <a class="card-opcoes-login1">Esqueci minha senha</a>
+                <a class="card-opcoes-login2">Criar nova conta</a>
+            </div>
+        </section>
+
+    </main> 
+    <footer class="rodape">
+        <section class="rodape-conteudo">
+            <div class="rodape-conteudo-escrito">
+                <h2 class="rodape-conteudo-escrito-titulo">Rastreie sua música</h2>
+                <p class="rodape-conteudo-escrito-paragrafo">Disponibilidade em multiplas plataformas</p>
+            </div>
+            <div class="rodape-conteudo-dowload">
+                <button class="botao-dowload">Android</button>
+                <button class="botao-dowload">Ios</button>
+                <button class="botao-dowload">Windows</button>
+                <button class="botao-dowload">Mac</button>
+            </div>
+            <div class="atribuicao-imagem">
+                <h3 class="atribuicao-creditos">Créditos</h3>
+                <a id="atribuicao" href="https://www.karolingu.com/sony-music-reel">Site da animação utilizada nesse projeto</a>
+            </div>
+        </section>
+        
+
+    </footer>
+</body>
+</html>
