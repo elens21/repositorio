@@ -10,6 +10,7 @@ font-family: 'Sarala', sans-serif;*/
     align-items: center;
     justify-content: space-around;
     background-color: rgb(31, 29, 29);
+    padding: 5px;
 }
 .cabecalho-menu{
     font-family: 'Sarala', sans-serif;
