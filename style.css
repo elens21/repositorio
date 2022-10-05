@@ -12,6 +12,7 @@ font-family: 'Sarala', sans-serif;*/
 }
 .cabecalho{
     width: 100%;
+    background-color: rgb(31, 29, 29);
     display: flex;
     flex-direction: row; /*direção de linha*/
     align-items: center; /*centralizar no meio da linha*/
