@@ -23,6 +23,13 @@ font-family: 'Sarala', sans-serif;*/
     color: white;
 }
 
+.music-player{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .anterior-back-botao{
     background-image: url(player_controls.574646cbe24e.png);
 }
